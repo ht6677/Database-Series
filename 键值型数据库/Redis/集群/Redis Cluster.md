@@ -1,5 +1,3 @@
-![default](https://user-images.githubusercontent.com/5803001/45228854-de88b400-b2f6-11e8-9ab0-d393ed19f21f.png)
-
 # Redis Cluster
 
 Redis 3.0 集群采用了 P2P 的模式，完全去中心化。Redis 把所有的 Key 分成了 16384 个 slot，每个 Redis 实例负责其中一部分 slot。集群中的所有信息(节点、端口、slot 等)，都通过节点之间定期的数据交换而更新。
